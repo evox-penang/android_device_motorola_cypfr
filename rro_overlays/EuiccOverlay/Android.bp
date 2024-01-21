@@ -4,7 +4,7 @@
 //
 
 runtime_resource_overlay {
-    name: "penangEuiccOverlay",
+    name: "cypfrEuiccOverlay",
     sdk_version: "current",
     product_specific: true,
 }

@@ -17,7 +17,7 @@
 */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.systemui.penang">
+    package="com.android.systemui.cypfr">
 
     <overlay
         android:isStatic="true"

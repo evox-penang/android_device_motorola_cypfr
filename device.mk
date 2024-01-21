@@ -12,22 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
-
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
-PRODUCT_AAPT_PREF_CONFIG := hdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 TARGET_BOOT_ANIMATION_RES := 720
-TARGET_SCREEN_DENSITY := 280
-
-# A/B
-AB_OTA_POSTINSTALL_CONFIG := \
-    RUN_POSTINSTALL_system=true \
-    POSTINSTALL_PATH_system=system/bin/otapreopt_script \
-    FILESYSTEM_TYPE_system=erofs \
-    POSTINSTALL_OPTIONAL_system=true
+TARGET_SCREEN_DENSITY := 420
 
 # Brightness
 SOONG_CONFIG_qtidisplay_brightness := true
@@ -36,10 +27,10 @@ SOONG_CONFIG_qtidisplay_brightness := true
 DEVICE_CHARACTERISTICS += hfr fm
 
 # Device path
-DEVICE_PATH := device/motorola/penang/rootdir
+DEVICE_PATH := device/motorola/cypfr/rootdir
 
 # Model
-PRODUCT_MODEL := moto g53j 5G
+PRODUCT_MODEL := moto g52j 5G
 
 # Modules
 BOOT_KERNEL_MODULES := \
@@ -72,17 +63,9 @@ PRODUCT_COPY_FILES += \
 
 # Hardware-specific overlays
 PRODUCT_PACKAGES += \
-    penangRegulatoryInfoOverlay \
-    penangEuiccOverlay \
-    penangNfcOverlay
-
-# SKU-specific overlays
-PRODUCT_PACKAGES += \
-    penangFrameworksOverlayYM \
-    penangSettingsProviderOverlayYM \
-    penangRegulatoryInfoOverlayYM \
-    penangFrameworksOverlaySB \
-    penangSettingsProviderOverlaySB
+    cypfrRegulatoryInfoOverlay \
+    cypfrEuiccOverlay \
+    cypfrNfcOverlay
 
 # Perf
 PRODUCT_COPY_FILES += \
@@ -93,16 +76,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     GCamGOPrebuilt-V4
 
-# Fstab
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/vendor/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom \
-    $(DEVICE_PATH)/vendor/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
-
 # EvoX stuff
-DEVICE_PACKAGE_OVERLAYS += device/motorola/penang/overlay-evolution
+DEVICE_PACKAGE_OVERLAYS += device/motorola/cypfr/overlay-evolution
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/motorola/sm4350-common/platform.mk)
 
 # include board vendor blobs
-$(call inherit-product-if-exists, vendor/motorola/penang/penang-vendor.mk)
+$(call inherit-product-if-exists, vendor/motorola/cypfr/cypfr-vendor.mk)

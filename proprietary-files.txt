@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from penang_g-user 13 T1TPS33.1-73-2-2 f8b57-723bee5 release-keys.
+# All unpinned blobs below are extracted from cypfr_g-user 13 T1TPS33.1-73-2-2 f8b57-723bee5 release-keys.
 
 # ADSP modules
 vendor/lib/rfsa/adsp/bm2n06.bin
@@ -301,11 +301,11 @@ vendor/lib64/camera/components/libdepthmapwrapper_secure.so
 
 # Camera - eeprom
 vendor/lib/camera/com.mot.eeprom.mot_gt24p128e_s5kjn1_eeprom.so
-vendor/lib/camera/com.mot.eeprom.mot_penang_ov02b10_otp.so
-vendor/lib/camera/com.mot.eeprom.mot_penang_s5k4h7_otp.so
+vendor/lib/camera/com.mot.eeprom.mot_cypfr_ov02b10_otp.so
+vendor/lib/camera/com.mot.eeprom.mot_cypfr_s5k4h7_otp.so
 vendor/lib64/camera/com.mot.eeprom.mot_gt24p128e_s5kjn1_eeprom.so
-vendor/lib64/camera/com.mot.eeprom.mot_penang_ov02b10_otp.so
-vendor/lib64/camera/com.mot.eeprom.mot_penang_s5k4h7_otp.so
+vendor/lib64/camera/com.mot.eeprom.mot_cypfr_ov02b10_otp.so
+vendor/lib64/camera/com.mot.eeprom.mot_cypfr_s5k4h7_otp.so
 
 # Camera - etc
 vendor/etc/camera/anc_detect_model
@@ -357,31 +357,31 @@ vendor/lib/camera/com.qti.flash.lm3644.so
 vendor/lib/camera/com.qti.sensor.mot_ov02b10.so
 vendor/lib/camera/com.qti.sensor.mot_s5k4h7.so
 vendor/lib/camera/com.qti.sensor.mot_s5kjn1.so
-vendor/lib/camera/com.qti.sensormodule.mot_penang_ov02b10_aw_sunwin.bin
-vendor/lib/camera/com.qti.sensormodule.mot_penang_ov02b10_ti_sunwin.bin
-vendor/lib/camera/com.qti.sensormodule.mot_penang_s5k4h7_tsp_ff.bin
-vendor/lib/camera/com.qti.sensormodule.mot_penang_s5kjn1_aw_qtech.bin
-vendor/lib/camera/com.qti.sensormodule.mot_penang_s5kjn1_ti_qtech.bin
+vendor/lib/camera/com.qti.sensormodule.mot_cypfr_ov02b10_aw_sunwin.bin
+vendor/lib/camera/com.qti.sensormodule.mot_cypfr_ov02b10_ti_sunwin.bin
+vendor/lib/camera/com.qti.sensormodule.mot_cypfr_s5k4h7_tsp_ff.bin
+vendor/lib/camera/com.qti.sensormodule.mot_cypfr_s5kjn1_aw_qtech.bin
+vendor/lib/camera/com.qti.sensormodule.mot_cypfr_s5kjn1_ti_qtech.bin
 vendor/lib64/camera/com.qti.flash.aw36518.so
 vendor/lib64/camera/com.qti.flash.lm3644.so
 vendor/lib64/camera/com.qti.sensor.mot_ov02b10.so
 vendor/lib64/camera/com.qti.sensor.mot_s5k4h7.so
 vendor/lib64/camera/com.qti.sensor.mot_s5kjn1.so
-vendor/lib64/camera/com.qti.sensormodule.mot_penang_ov02b10_aw_sunwin.bin
-vendor/lib64/camera/com.qti.sensormodule.mot_penang_ov02b10_ti_sunwin.bin
-vendor/lib64/camera/com.qti.sensormodule.mot_penang_s5k4h7_tsp_ff.bin
-vendor/lib64/camera/com.qti.sensormodule.mot_penang_s5kjn1_aw_qtech.bin
-vendor/lib64/camera/com.qti.sensormodule.mot_penang_s5kjn1_ti_qtech.bin
+vendor/lib64/camera/com.qti.sensormodule.mot_cypfr_ov02b10_aw_sunwin.bin
+vendor/lib64/camera/com.qti.sensormodule.mot_cypfr_ov02b10_ti_sunwin.bin
+vendor/lib64/camera/com.qti.sensormodule.mot_cypfr_s5k4h7_tsp_ff.bin
+vendor/lib64/camera/com.qti.sensormodule.mot_cypfr_s5kjn1_aw_qtech.bin
+vendor/lib64/camera/com.qti.sensormodule.mot_cypfr_s5kjn1_ti_qtech.bin
 
 # Camera - tuned
 vendor/lib/camera/com.qti.tuned.default.bin
-vendor/lib/camera/com.qti.tuned.mot_penang_ov02b10.bin
-vendor/lib/camera/com.qti.tuned.mot_penang_s5k4h7.bin
-vendor/lib/camera/com.qti.tuned.mot_penang_s5kjn1.bin
+vendor/lib/camera/com.qti.tuned.mot_cypfr_ov02b10.bin
+vendor/lib/camera/com.qti.tuned.mot_cypfr_s5k4h7.bin
+vendor/lib/camera/com.qti.tuned.mot_cypfr_s5kjn1.bin
 vendor/lib64/camera/com.qti.tuned.default.bin
-vendor/lib64/camera/com.qti.tuned.mot_penang_ov02b10.bin
-vendor/lib64/camera/com.qti.tuned.mot_penang_s5k4h7.bin
-vendor/lib64/camera/com.qti.tuned.mot_penang_s5kjn1.bin
+vendor/lib64/camera/com.qti.tuned.mot_cypfr_ov02b10.bin
+vendor/lib64/camera/com.qti.tuned.mot_cypfr_s5k4h7.bin
+vendor/lib64/camera/com.qti.tuned.mot_cypfr_s5kjn1.bin
 
 # CVP
 vendor/lib/libcvp_common.so
@@ -614,19 +614,19 @@ vendor/etc/sensors/proto/tcs3708.proto
 vendor/etc/sensors/sns_reg_config
 
 # Thermal engine - configs
-vendor/etc/thermal-engine-penang-APEU.conf
-vendor/etc/thermal-engine-penang-JPSB-camera.conf
-vendor/etc/thermal-engine-penang-JPSB-game-normal.conf
-vendor/etc/thermal-engine-penang-JPSB-game-perf.conf
-vendor/etc/thermal-engine-penang-JPSB-voicecall.conf
-vendor/etc/thermal-engine-penang-JPSB.conf
-vendor/etc/thermal-engine-penang-camera.conf
-vendor/etc/thermal-engine-penang-game-normal.conf
-vendor/etc/thermal-engine-penang-game-perf.conf
-vendor/etc/thermal-engine-penang.conf
+vendor/etc/thermal-engine-cypfr-APEU.conf
+vendor/etc/thermal-engine-cypfr-JPSB-camera.conf
+vendor/etc/thermal-engine-cypfr-JPSB-game-normal.conf
+vendor/etc/thermal-engine-cypfr-JPSB-game-perf.conf
+vendor/etc/thermal-engine-cypfr-JPSB-voicecall.conf
+vendor/etc/thermal-engine-cypfr-JPSB.conf
+vendor/etc/thermal-engine-cypfr-camera.conf
+vendor/etc/thermal-engine-cypfr-game-normal.conf
+vendor/etc/thermal-engine-cypfr-game-perf.conf
+vendor/etc/thermal-engine-cypfr.conf
 vendor/etc/thermal-engine.conf
 
 # Touch firmware
 vendor/firmware/djn_novatek_ts_fw.bin
 vendor/firmware/djn_novatek_ts_mp.bin
-vendor/firmware/focaltech-csot-ft8057-05-0000-penang.bin
+vendor/firmware/focaltech-csot-ft8057-05-0000-cypfr.bin

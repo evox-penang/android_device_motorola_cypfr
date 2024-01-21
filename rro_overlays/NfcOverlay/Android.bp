@@ -4,7 +4,7 @@
 //
 
 runtime_resource_overlay {
-    name: "penangNfcOverlay",
+    name: "cypfrNfcOverlay",
     sdk_version: "current",
     product_specific: true,
 }

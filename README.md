@@ -1,4 +1,4 @@
-Moto g53j / g53y / g53s 5G
+Moto g52j / II / SPECIAL 5G
 ============
 
 ## Copyrights
@@ -10,4 +10,4 @@ Copyright (C) Modded by lahaina 2024
 
 ## Device Tree
 
-Android device configuration for the moto holi platform (**SM4350**).
+Android device configuration for the moto blair platform (**SM6375**).

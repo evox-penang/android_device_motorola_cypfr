@@ -1,4 +1,4 @@
 runtime_resource_overlay {
-    name: "penangSystemUIOverlay",
+    name: "cypfrSystemUIOverlay",
     vendor: true,
 }

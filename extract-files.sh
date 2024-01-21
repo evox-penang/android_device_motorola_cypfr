@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=penang
+DEVICE=cypfr
 VENDOR=motorola
 
 # Load extract utilities and do some sanity checks.
